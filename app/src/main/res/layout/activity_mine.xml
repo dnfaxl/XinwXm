@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/spash">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:src="#fff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:text="点击登录"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/portrait"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/user"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

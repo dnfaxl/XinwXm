@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".activity.RegisterActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/red">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/RegisterInput">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="用户名"
+        android:id="@+id/ed_userName"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/RegisterInput">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="邮箱"
+        android:id="@+id/ed_email"
+        android:inputType="textEmailAddress"/>
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/RegisterInput">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="密码"
+        android:id="@+id/ed_password"
+        android:inputType="textPassword"/>
+
+
+</android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:id="@+id/bt_register"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="注册"
+        android:background="@color/logincolor"/>
+
+</LinearLayout>

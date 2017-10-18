@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+                android:layout_margin="3dp"
+              android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/mIv"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/mTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/mIv"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:text="efwf"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/mSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mIv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="46523"
+        android:textColor="#ff666666"
+        android:textSize="10sp"/>
+    <TextView
+        android:id="@+id/mStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/news_iv_title"
+        android:layout_below="@+id/news_iv_title"
+        android:paddingLeft="10dp"
+        android:scrollHorizontally="true"
+        android:lines="1"
+        android:text="8453465"/>
+
+</RelativeLayout>
